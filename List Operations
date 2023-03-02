@@ -1,0 +1,20 @@
+data = [
+  [23, 11, 5, 14],
+  [8, 32, 20, 5]
+]
+color = input()
+#your code goes here
+sum=23+11+5+14+8+32+20+5
+
+if 'blue' in color:
+  blue = int((43/sum)*100)
+  print(blue)
+elif 'brown' in color:
+  brown = int((31/sum)*100)
+  print(brown)
+elif 'green' in color:
+  green = int((25/sum)*100)
+  print(green)
+elif 'black' in color:
+  black = int((19/sum)*100)
+  print(black)
