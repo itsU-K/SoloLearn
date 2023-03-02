@@ -1,0 +1,6 @@
+#your code goes here
+i = input()
+a=1
+for x in i:
+    print(x*a)
+    a=a+1
