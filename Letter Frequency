@@ -1,0 +1,6 @@
+a=input()
+b=input()
+c=a.count(b)
+d=len(a)
+out=int ((c/d)*100)
+print(out)
