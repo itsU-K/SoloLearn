@@ -1,0 +1,6 @@
+text = input()
+b = text.split()
+x=len(b)
+a=text.replace(" ","")
+y=len(a)
+print(y/x)
